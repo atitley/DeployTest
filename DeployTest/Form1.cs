@@ -20,7 +20,7 @@ namespace DeployTest
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/myuser/myapp"))
+            using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/atitley/DeployTest/Releases"))
             {
                 await mgr.Result.UpdateApp();
               

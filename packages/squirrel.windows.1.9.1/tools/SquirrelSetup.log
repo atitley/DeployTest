@@ -53,3 +53,11 @@ File name: 'DeployTest.1.0.0.nupkg'
 2020-02-07 10:28:31> DeltaPackageBuilder: \lib\net46\Squirrel.dll hasn't changed, writing dummy file
 2020-02-07 10:28:31> DeltaPackageBuilder: \lib\net46\Squirrel.pdb hasn't changed, writing dummy file
 2020-02-07 10:28:31> Program: Building embedded zip file for Setup.exe
+2020-02-07 11:12:43> Program: Starting Squirrel Updater: --releasify DeployTest.1.0.1.nupkg
+2020-02-07 11:12:43> Program: Bootstrapper EXE found at:C:\Develop\DeployTest\DeployTest\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-02-07 11:12:43> Program: Creating release package: C:\Develop\DeployTest\DeployTest\Releases\DeployTest.1.0.1.nupkg
+2020-02-07 11:12:45> ReleasePackage: Creating release package: C:\Develop\DeployTest\DeployTest\Releases\DeployTest.1.0.1.nupkg => C:\Develop\DeployTest\DeployTest\Releases\DeployTest-1.0.1-full.nupkg
+2020-02-07 11:12:46> ReleasePackage: Extracting dependent packages: []
+2020-02-07 11:12:46> ReleasePackage: Removing unnecessary data
+2020-02-07 11:12:46> ReleasePackage: No release notes found in C:\Users\Alex\AppData\Local\SquirrelTemp\tempo\DeployTest.nuspec
+2020-02-07 11:12:48> Program: Building embedded zip file for Setup.exe
